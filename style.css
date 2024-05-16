@@ -1,0 +1,40 @@
+h1{
+    padding: 5px;
+    color: rgb(235, 152, 217);
+    }
+h2{
+    padding-inline: 2px;
+}
+a:hover{
+    color: brown;
+}
+.home{
+    display: flex;
+    align-items:  center;
+}
+.container
+{
+    
+    display: grid;
+    flex-direction:column;
+    padding-left:  50px;
+    padding-right: 50px;
+    width: 300px;
+    box-shadow: 3px 3px 10px royalblue;
+    border-bottom: 5px green;
+    border-top: 5px red;
+}
+
+.todo
+{
+display: flex;
+justify-content: space-between;
+padding: 2em;
+}
+
+.todo:has(.todo_checkbox:checked)
+{
+    color: rgb(9, 0, 15);
+    background:rgb(2, 122, 12);
+    text-decoration: line-through;
+}
